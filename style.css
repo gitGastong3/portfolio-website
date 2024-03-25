@@ -99,7 +99,6 @@ h4 {
 .newsletter form {
     width: 380px;
     position: relative;
-    background-color: red;
 }
 
 .newsletter form input:first-child {
@@ -121,7 +120,14 @@ h4 {
     color: white;
     cursor: pointer;
     box-shadow: 1px 1px 1px black;
+    transition: all 0.3s;
 } 
+
+.newsletter form input:last-child:hover {
+    background-color: #191919;
+    border: 2px solid green;
+    cursor: pointer;
+}
 
 .about {
     width: 100%;
